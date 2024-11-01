@@ -237,6 +237,7 @@ footer {
         #navigation-desktop li a:hover {
             /* Set underline on hover */
             /* text-decoration: ___; */
+            
         }
     
         #navigation-mobile {
@@ -253,23 +254,30 @@ footer {
         /* Footer */
         footer {
             /* Set background color to black and text color to white */
+            background-color: #000;
+            color: #FFF;
             
         }
     
         /* Content */
         section {
             /* Add padding of 2% */
+            padding: 2%;
           
         }
     
         /* Flex Container */
         .flex-container {
             /* Enable flex display and flex-wrap */
+            display:flex;
+            flex-wrap: wrap;
          
         }
     
         article {
             /* Set width to 46% and margin to 1% */
+            width: 46%;
+            margin: 1%;
            
         }
 
