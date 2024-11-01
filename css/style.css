@@ -193,7 +193,7 @@ footer {
 
     /* tablet setting*/
     /* set min width to 700 pixels */
-    @media only screen and (  ) {
+    @media only screen and ( min-width: 700px) {
         /* Header */
         header {
             /* Set background color to black and height to 30px */
@@ -291,7 +291,7 @@ footer {
 
     /* desktop setting */
     /* set min width to 1100 pixels */
-    @media only screen and () {
+    @media only screen and (min-width: 1100px) {
         header {
             background-color: black;
         }
