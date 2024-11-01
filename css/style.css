@@ -138,7 +138,7 @@ img {
 
 /* Footer
 -----------------------------------------------------------------------------*/
-footer {
+.footer {
     height: auto;
     background: black;
     text-align: right;
@@ -154,89 +154,87 @@ footer {
 
 @media only screen and (min-width: 500px) {
     /* Header */
-    header {
+    .header {
         /* Set the background color to white */
-        
+        background-color: #FFF;
     }
 
     /* Body */
     body {
         /* Set background color to a light gray (whitesmoke) */
-        
+       background-color: whitesmoke; 
     }
 
     /* Images */
-    #dumperimg {
+    #dumperimg, #designskoleimg {
         /* Set width to 60%, padding of 2%, float to right, and clear to right */
-      
+      width: 60%;
+      padding: 2%;
+      float: right;
+      clear: right;
     }
 
-    #trumpimg, #designskoleimg {
+    #trumpimg {
         /* Set width to 60%, padding of 2%, float to the left and clear to left */
-       
+       width: 60%;
+       padding: 2%;
+       float: left;
+       clear: left;
     }
-
-    #designskoleimg {
-        /* Set width to 60%, padding of 2%, float to the right and clear to right */
-       
-    }
-
-
 
     /* Logo */
     #logo2 {
         /* Set max-width to 60px */
-        
+        max-width: 60px;
     }
+
+
+    
+
 }
-
-
-
     /* tablet setting*/
     /* set min width to 700 pixels */
     @media only screen and ( min-width: 700px) {
         /* Header */
         header {
             /* Set background color to black and height to 30px */
-            /* background-color: ___; */
-            /* height: ___; */
+            background-color: black;
+            height: 30px;
         }
     
         /* Body */
         body {
-            /* Set background color to white */
-            /* background-color: ___; */
+            background-color: white; */
         }
     
         /* Navigation */
         #navigation-icon {
             /* Hide navigation icon */
-            /* display: ___; */
+            display:none;
         }
     
         #navigation-desktop {
             /* Show desktop navigation (hint value Display: block) and align text to the right */
-            /* display: ___; */
-            /* text-align: ___; */
+            display: block;
+            text-align: right;
         }
     
         #navigation-desktop li {
-            /* Display items inline */
-            /* display: ___; */
+            display: inline;
         }
     
         #navigation-desktop li a {
             /* Set color to white, remove underline, and add font size 1.6rem, margin 2%, and padding 2% */
-            /* color: ___; */
-            /* text-decoration: ___; */
-            /* font-size: ___; */
-            /* margin: ___; */
-            /* padding: ___; */
+            color: white;
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin: 2%;
+            padding: 2%;
         }
     
         #navigation-desktop li a:hover {
             /* Set underline on hover */
-            /* text-decoration: ___; */
+            text-decoration:underline;
             
         }
     
